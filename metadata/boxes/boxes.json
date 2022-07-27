@@ -1,0 +1,12 @@
+{
+  "name": "Sample Box",
+  "description": "This is sample boxes",
+  "external_url": "https://chaincolosseumphoenix.org/",
+  "image": "https://bafkreigkdzriamhcxgyl5giqu2y7pbc725ndu3g54z5ks6dpkdjremvnnm.ipfs.nftstorage.link/",
+  "attributes": [
+    {
+     "trait_type": "Rarity",
+     "value": "Common"
+    }
+  ]
+}

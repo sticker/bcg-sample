@@ -1,0 +1,12 @@
+{
+  "name": "Sample Character",
+  "description": "This is sample characters",
+  "external_url": "https://chaincolosseumphoenix.org/",
+  "image": "https://bafkreiffngvg52gzipbnjufem4cxx4rduflp6c4jvymygfyxzczhnkzhga.ipfs.nftstorage.link/",
+  "attributes": [
+    {
+     "trait_type": "Rarity",
+     "value": "Common"
+    }
+  ]
+}
