@@ -1,7 +1,8 @@
 <template>
   <div>
-    <wallet-connect></wallet-connect>
+    <!-- <wallet-connect></wallet-connect> -->
     <wallet-create></wallet-create>
+    <hr />
     <balance></balance>
     <transfer></transfer>
     <hr />
@@ -16,7 +17,7 @@
 
 import { mapState, mapActions } from 'vuex';
 
-import WalletConnect from './components/WalletConnect.vue';
+// import WalletConnect from './components/WalletConnect.vue';
 import WalletCreate from './components/WalletCreate.vue';
 import Balance from './components/Balance.vue';
 import Transfer from './components/Transfer.vue';
@@ -26,7 +27,7 @@ import BoxList from './components/BoxList.vue';
 
 export default {
   components: {
-    WalletConnect,
+    // WalletConnect,
     WalletCreate,
     Balance,
     Transfer,
@@ -52,14 +53,14 @@ export default {
     ]),
   },
 
-  async created() {
-    try {
-      await this.initialize();
-    } catch (e) {
-      console.error(e);
-      this.errorMessage = e.message;
-    }
-  },
+  // async created() {
+  //   try {
+  //     await this.initialize();
+  //   } catch (e) {
+  //     console.error(e);
+  //     this.errorMessage = e.message;
+  //   }
+  // },
 };
 </script>
 

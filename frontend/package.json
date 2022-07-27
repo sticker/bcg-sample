@@ -9,6 +9,7 @@
     "start": "npm run serve"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.12",
     "axios": "^0.27.2",
     "ethers": "^5.6.9",
     "vue": "2.6.12",
